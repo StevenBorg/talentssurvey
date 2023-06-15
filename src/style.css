@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #446688; /* a bit of color for the heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* lighter border color */
+    padding: 15px; /* More padding */
+}
+
+th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+    width: 60%;
+}
+
+th:nth-child(n+2), td:nth-child(n+2) {
+    width: 8%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+tr:hover {
+    background-color: #ddd; /* Change background color on row hover */
+}
+
+button {
+    background-color: #446688; /* Same color as the heading */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #ddd; /* Light gray background on button hover */
+    color: #446688;
+}
+
+input[type="radio"] {
+    margin: 0px;
+}
+
+
+#contact {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contactForm button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
